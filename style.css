@@ -1,0 +1,65 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background-image: url(fondox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h2 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    padding-left: 60px;
+    color: black;
+    text-align: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 80px;
+    
+}
+
+
+.big-text {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    position: absolute;
+    top: 350px;
+    display: flex;
+    width: 45rem;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F7D8D0;
+    border-radius: 150px;
+    border: 3px solid black;
+}
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 4.5rem;
+}
+
+.minitexto1,
+.minitexto2,
+.minitexto3,
+.minitexto4 {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
