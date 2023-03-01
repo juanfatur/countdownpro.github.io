@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Mulish', sans-serif;
-    background-image: url(fondox.png);
+    background-image: url(fondoNuevo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,13 +47,54 @@ h2 {
     text-align: center;
     background-color: #F7D8D0;
     border-radius: 150px;
-    border: 3px solid black;
+
 }
+
+.days-container {
+    position: absolute;
+    width: 20.4%;
+    top: 35%;
+    left: 8%;
+    text-align: center;
+
+
+}
+
+.hours-container {
+    position: absolute;
+    top: 35%;
+    left: 28.75%;
+    width: 21.7%;
+    text-align: center;
+
+
+}
+
+.minutes-container {
+    position: absolute;
+    top: 35%;
+    left: 50.4%;
+    width: 21.7%;
+    text-align: center;
+
+
+}
+
+.seconds-container {
+    position: absolute;
+    top: 35%;
+    left: 72.6%;
+    width: 21.7%;
+    text-align: center;
+
+
+}
+
 .day,
 .hour,
 .minute,
 .second {
-    font-size: 4.5rem;
+    font-size: 10vw;
 }
 
 .minitexto1,
