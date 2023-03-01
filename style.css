@@ -7,13 +7,17 @@
 }
 body {
     font-family: 'Mulish', sans-serif;
-    background-image: url(fondoNuevo.png);
+    background-image: url(Background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+@font-face {
+  font-family: championLightweight;
+  src: url(ChampionGothic-Lightweight.ttf);
+}
 
 h2 {
     font-size: 4.5rem;
@@ -23,10 +27,16 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  font-family: championLightweight;
+  color: #333333;
+
+}
+
 .titulo{
     position: absolute;
     top: 80px;
-    
+
 }
 
 
@@ -53,16 +63,17 @@ h2 {
 .days-container {
     position: absolute;
     width: 20.4%;
-    top: 35%;
-    left: 8%;
+    top: 28%;
+    left: 8.2%;
     text-align: center;
+
 
 
 }
 
 .hours-container {
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 28.75%;
     width: 21.7%;
     text-align: center;
@@ -72,7 +83,7 @@ h2 {
 
 .minutes-container {
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 50.4%;
     width: 21.7%;
     text-align: center;
@@ -82,8 +93,8 @@ h2 {
 
 .seconds-container {
     position: absolute;
-    top: 35%;
-    left: 72.6%;
+    top: 28%;
+    left: 71.5%;
     width: 21.7%;
     text-align: center;
 
@@ -94,7 +105,7 @@ h2 {
 .hour,
 .minute,
 .second {
-    font-size: 10vw;
+    font-size: 14vw;
 }
 
 .minitexto1,
