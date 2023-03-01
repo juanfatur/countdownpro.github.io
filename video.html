@@ -5,15 +5,22 @@
       body {
          margin: 0px;
       }
-</style>
+    </style>
+    
 <body style="text-align: center;">
      
-    <video width="100%"
-        autoplay muted/>
+    <video id = "myvid" width="100%"
+        autoplay muted controls />
          
         <source src="Bienvenido a balcarce.mp4"
             type="video/mp4">
     </video>
+    <script type="text/javascript">
+        video = document.getElementById('myvid');
+        video.addEventListener('ended',function() {
+            window.location.href = 'http://www.google.com';
+        })
+    </script>
 </body>
  
 </html>
